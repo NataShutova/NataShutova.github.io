@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>body { opacity: 0; overflow-x: hidden; } html { background-color: #ffffff; }</style>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+</head>
+<body>
+   
+    <header class="site-header">
+        <div class="header-top">
+            <a href="#">
+                <div class="header-top-left">
+                    <div class="svg-arrow_left svg-arrow_left-dims"></div> 
+                    <div class="header-top-address">пр. Комсомольский, 44</div>  
+                </div>
+            </a> 
+            <div class="decor-title-elem">
+                <div class="decor-line"></div>
+                <div class="decor-square"></div>
+                <h3 class="decor-title">Дом</h3>
+                <div class="decor-square"></div>
+                <div class="decor-line"></div>
+            </div>
+            <a href="#">
+                <div class="header-top-right">
+                    <div class="header-top-address">пр. Комсомольский, 108</div>
+                    <div class="svg-arrow_richt svg-arrow_richt-dims"></div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="header-bottom" style="background-image: url(img/header.png);">
+  
+                <div class="header-bottom-address">
+                    <h3>Комсомольский, 44</h3>
+                    <p>Жилой дом</p>
+                </div>
+                <div class="header-bottom-discount">
+                    <h3>Скидка 10%</h3>
+                    <p>Действует до 20.11.2016</p>
+                </div>
+                <div class="header-nav" id="menu">
+                    <ul>
+                        <li class="active-nav"><a href="#">Описание</a></li>
+                        <li><a href="#main">Инфраструктура</a></li>
+                        <li><a href="#build">Ход строительства</a></li>
+                        <li><a href="#apart">Квартиры в продаже</a></li>
+                        <li><a href="#docs">Паркинг</a></li>
+                        <li><a href="#docs">Документы</a></li>
+                    </ul>
+           
+            </div>
+        </div>
+        
+    </header>
+    <section class="content">
+        <div class="info-main">
+            <div class="info-title">
+                <div class="title-part">
+                    <p>Сдача</p>
+                    <h5>II кв. 2019</h5>
+                </div>
+                <div class="title-part">
+                    <p>Тип дома</p>
+                    <h5>Монолитно-кирпичный</h5>
+                </div>
+                <div class="title-part">
+                    <p>Статус дома</p>
+                    <h5>Строится</h5>
+                </div>
+   
+            </div>
+            <div class="info-text">
+                <p>Жилой комплекс расположен в Октябрьском районе  г. Барнаула на пересечении улиц: ул. Путиловская  и пр. Комсомольский. Представляет собой четыре секции жилого дома переменной этажности (секция №2, №3, №4, №5). На территории двора размещенны все необходимые площадки: для подвижных игра детей, отдыха взрослого населения, спортивные  и хозяйственные.  </p>
+                <p>Фасады дома с витражным остеклением делают жилой комплекс ярким и неповторимым. Фасадная отделка представляет собой комбинацию кирпича и штукатурки.  На высоту первых четырех этажей отделочный материал представлен облицовочным керамическим кирпичом двух видов (красный и «хамелеон» ), выше четвертого этажа отделка выполненна полимерной штукатуркой  с последующей окраской.</p>
+            </div>
+            <div class="info-photos">
+                <div class="photo-line">
+                    <img src="img/Image1.png" alt="">
+                    <img src="img/Image2.png" alt="">
+                    <img src="img/Image3.png" alt="">
+                </div>
+                <div class="photo-line">
+                    <img src="/img/Image4.png" alt="">
+                    <img src="/img/Image5.png" alt="">
+                    <img src="/img/Image6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="map-main" id="main">
+            <div class="map-title">
+                <div class="decor-title-elem">
+                    <div class="decor-line"></div>
+                    <div class="decor-square"></div>
+                    <h3 class="decor-title">Инфраструктура</h3>
+                    <div class="decor-square"></div>
+                    <div class="decor-line"></div>
+                </div>
+            </div>
+            <div class="map-container">
+            <div class="map-google">
+                <div id="map_canvas" style="width:1560px; height:600px"></div>
+            </div>
+            </div>
+        </div>
+        <div class="build-main" id="build">
+            <div class="build-title">
+                <div class="decor-title-elem">
+                    <div class="decor-line"></div>
+                    <div class="decor-square"></div>
+                    <h3 class="decor-title">Ход строительства</h3>
+                    <div class="decor-square"></div>
+                    <div class="decor-line"></div>
+                </div>
+            </div>
+            <div class="owl-carousel carousel-build">
+                <div class="carousel-slide"><img src="img/ImageSlider1.png" alt="Картинка слайда 1"><p class="build-p">24/10/2016</p></div>
+                <div class="carousel-slide"><img src="img/ImageSlider2.png" alt="Картинка слайда 2"><p class="build-p">24/09/2016</p></div>
+                <div class="carousel-slide"><img src="img/ImageSlider3.png" alt="Картинка слайда 3"><p class="build-p">24/09/2016</p></div>
+                <div class="carousel-slide"><img src="img/ImageSlider1.png" alt="Картинка слайда 1"><p class="build-p">24/10/2016</p></div>
+                <div class="carousel-slide"><img src="img/ImageSlider2.png" alt="Картинка слайда 2"><p class="build-p">24/09/2016</p></div>
+                <div class="carousel-slide"><img src="img/ImageSlider3.png" alt="Картинка слайда 3"><p class="build-p">24/09/2016</p></div>
+            </div>
+            
+            
+        </div>
+        <div class="plan-main" >
+           
+            <div class="plan-title">
+               <div class="plan-main-border"></div>
+                <div class="decor-title-elem">
+                    <div class="decor-line"></div>
+                    <div class="decor-square"></div>
+                    <h3 class="decor-title">Планировка этажей</h3>
+                    <div class="decor-square"></div>
+                    <div class="decor-line"></div>
+                </div>
+            </div>
+            <div class="owl-carousel carousel-plan">
+                <div class="carousel-slide"><p class="plan-p">Секция 1, этаж 1-5</p><img src="img/Plan.jpg" alt="Картинка слайда 1"></div>
+                <div class="carousel-slide"><p class="plan-p">Секция 2, этаж 1-5</p><img src="img/Plan.jpg" alt="Картинка слайда 2"></div>
+                <div class="carousel-slide"><p class="plan-p">Секция 3, этаж 1-5</p><img src="img/Plan.jpg" alt="Картинка слайда 3"></div>
+            </div>
+            
+            
+        </div>
+            <div class="apart-main" id="apart">           
+                <div class="apart-title">
+                    <div class="decor-title-elem">
+                        <div class="decor-line"></div>
+                        <div class="decor-square"></div>
+                        <h3 class="decor-title">Квартиры в продаже</h3>
+                        <div class="decor-square"></div>
+                        <div class="decor-line"></div>
+                    </div>
+                </div>
+                <div class="tabs-wrapper">
+                    <div class="tabs">
+                        <span class="tab">Секция 1</span>
+                        <span class="tab">Секция 2</span>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-item">
+                            <div class="apart-count">
+                                <div class="count-list"><div class="count-sq"><div class="count-sq-in"></div></div><p>все квартиры</p></div>
+                                <div class="count-list"><div class="count-sq"></div><p>1 комнатная</p></div>
+                                <div class="count-list"><div class="count-sq"></div><p>2х комнатная</p></div>
+                                <div class="count-list"><div class="count-sq"></div><p>3х комнатная</p></div>
+                            </div>
+                            <div class="apart-line">
+                                <p>1</p>
+                                <div class="apart-card"><div class="apart-number">70</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">71</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">72</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">73</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card apart-card-sold"><div class="apart-number">74</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">75</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">76</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">77</div>
+                                <div class="apart-sq">48,34</div></div>
+                                
+                            </div>
+                            <div class="apart-line">
+                                <p>2</p>
+                                <div class="apart-card"><div class="apart-number">62</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">63</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">64</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">65</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card apart-card-hold"><div class="apart-number">66</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">67</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">68</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">69</div>
+                                <div class="apart-sq">48,34</div></div>
+                            </div>
+                            <div class="info-line">
+                                <div class="info-sq info-free-sq"></div><p>- свободные квартиры</p>
+                                <div class="info-sq info-hold-sq"></div><p>- забронированные квартиры</p>
+                                <div class="info-sq info-sold-sq"></div><p>- проданные квартиры</p>
+                            </div>
+                        </div>
+                        <div class="tab-item">
+                            <div class="apart-count">
+                                <div class="count-list"><div class="count-sq"><div class="count-sq-in"></div></div><p>все квартиры</p></div>
+                                <div class="count-list"><div class="count-sq"></div><p>1 комнатная</p></div>
+                                <div class="count-list"><div class="count-sq"></div><p>2х комнатная</p></div>
+                                <div class="count-list"><div class="count-sq"></div><p>3х комнатная</p></div>
+                            </div>
+                            <div class="apart-line">
+                                <p>1</p>
+                                <div class="apart-card"><div class="apart-number">20</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">21</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">22</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">23</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card apart-card-sold"><div class="apart-number">24</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">25</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">26</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">27</div>
+                                <div class="apart-sq">48,34</div></div>
+                            </div>
+                            <div class="apart-line">
+                                <p>2</p>
+                                <div class="apart-card"><div class="apart-number">12</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">13</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card apart-card-hold"><div class="apart-number">14</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">15</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">16</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">17</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">18</div>
+                                <div class="apart-sq">48,34</div></div>
+                                <div class="apart-card"><div class="apart-number">19</div>
+                                <div class="apart-sq">48,34</div></div>
+                            </div>
+                            <div class="info-line">
+                                <div class="info-sq info-free-sq"></div><p>- свободные квартиры</p>
+                                <div class="info-sq info-hold-sq"></div><p>- забронированные квартиры</p>
+                                <div class="info-sq info-sold-sq"></div><p>- проданные квартиры</p>
+                            </div>
+                        </div>
+                        </div>
+                
+            
+            
+                        </div>
+                         </div>
+                         
+           <div class="docs-main" id="docs">
+           
+            <div class="docs-title">
+                <div class="decor-title-elem">
+                    <div class="decor-line"></div>
+                    <div class="decor-square"></div>
+                    <h3 class="decor-title">Документы</h3>
+                    <div class="decor-square"></div>
+                    <div class="decor-line"></div>
+                </div>
+            </div>
+                    <div class="docs-tabs-wrapper">
+                    <div class="docs-tabs">
+                        <span class="docs-tab">Документы объекта</span>
+                        <span class="docs-tab">Финансовые документы</span>
+                        <span class="docs-tab">Форма договора долевого участия</span>
+                        <span class="docs-tab">Паркинг</span>
+                    </div>
+                    <div class="docs-tab-content">
+                        <div class="docs-tab-item">
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Проектная декларация</p>
+                            </div>
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Изменения в ПД</p>
+                            </div>
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Проектная декларация</p>
+                            </div>
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Разрешение на строительство</p>
+                            </div>
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Свидетельство о регистрации права собственности на земельный участок</p>
+                            </div>
+                        </div>
+                        <div class="docs-tab-item">
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                                                        <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                                                        <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            
+                      </div>
+                      <div class="docs-tab-item">
+                         <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                                                   <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                      </div>
+                      <div class="docs-tab-item">
+                           <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                                                       <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div class="doc">
+                                <div class="svg-docs svg-docs-dims"></div> 
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                      </div>
+                        </div>
+                
+            
+            
+                        </div>
+            
+            
+        </div>
+            
+        <div class="disc-main">
+           <p>Любая информация, представленная на данном сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ.</p>
+           <a href="javascript: PopUpShow()">Вход для риэлторов <div class="enter"></div></a>
+            
+        </div>
+        <div class="footer">
+           <p>2016 © Строительная перспектива</p>
+           <p>Разработка сайта - ADN Digital Studio</p>
+            
+        </div>
+        
+    <div class="popup" id="popup">
+    <div class="popup-content">
+       <a href="javascript:PopUpHide()" class="popup-close"><div class="svg-Clouse svg-Clouse-dims"></div></a>
+        <div class="popup-head">
+            <p>Вход для риэлторов</p>
+        </div>
+        <div class="popup-main">
+           <form action="">
+                <p>Логин</p>
+                <input type="text" placeholder="Укажите ваш логин">
+                <p>Пароль</p>
+                <input type="text" placeholder="Укажите ваш логин">
+                <button class="btn-enter">Войти</button>
+            </form>
+        </div>
+        
+    </div>
+</div>    
+        
+          <div class="apart-tooltip" id="tooltip">
+    <div class="tooltip-content">
+           <h6>Однокомнатная квартира</h6>
+           <p>Свободна</p>
+           <img src="img/PlanMini.jpg" alt="">
+           <div class="tooltip-bottom"><p>34,40 м2</p><p>1 200 000 Р</p></div>
+        
+    </div>
+</div>  
+                           
+    </section>
+ 
+<link rel="stylesheet" href="css/libs.min.css">
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
