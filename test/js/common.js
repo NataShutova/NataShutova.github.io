@@ -125,7 +125,7 @@ var latlng = new google.maps.LatLng(53.339948,83.794994);
 		//Определяем область показа маркеров
 		var latlngbounds = new google.maps.LatLngBounds();	
          
-        var image = new google.maps.MarkerImage('../img/iconhouse.svg',      
+        var image = new google.maps.MarkerImage('../img/65638991.svg',      
 		new google.maps.Size(47, 59),      
       	new google.maps.Point(0,0),      
       	new google.maps.Point(0, 32)); 
