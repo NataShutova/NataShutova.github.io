@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&subset=cyrillic");
 .svg-Clouse, .svg-arrow_left, .svg-arrow_richt, .svg-docs, .svg-icon_house {
   background: url("../img/65638991.svg") no-repeat; }
 
@@ -297,7 +296,7 @@ h3 {
   font-size: 24px;
   font-family: "PT Serif", serif; }
 
-.site-header_header-bottom {
+.header-bottom {
   min-height: 710px;
   background-color: #3c3c3c;
   -webkit-background-size: cover;
@@ -324,10 +323,10 @@ h3 {
       -ms-flex-align: center;
           align-items: center; }
 
-.site-header_header-bottom h3, p {
+.header-bottom h3, p {
   text-align: center; }
 
-.site-header_header-bottom p {
+.header-bottom p {
   margin-top: 0px;
   text-transform: uppercase;
   font-family: PT Sans Narrow, sans-serif;
@@ -341,7 +340,7 @@ h3 {
 .header-bottom-address {
   margin-bottom: 130px; }
 
-.site-header_header-bottom h3 {
+.header-bottom h3 {
   font-size: 28px;
   font-weight: bold;
   font-style: italic;
@@ -377,7 +376,7 @@ h3 {
 .header-nav > ul > li > a:hover {
   color: #fca74b; }
 
-.site-header_header-top {
+.header-top {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
