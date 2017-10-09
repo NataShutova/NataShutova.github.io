@@ -102,11 +102,6 @@ $(function($){
 //Карта
 
 
- $(document).ready(function(){
-    initialize();
-});
-
-
 
 
 function initialize() {   
