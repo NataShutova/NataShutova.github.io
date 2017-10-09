@@ -69,10 +69,7 @@ gulp.task('img', function() {
     .pipe(gulp.dest('dist/img'));
 });
 
-gulp.task('fonts', function() {
-    return gulp.src('app/fonts/*')
-    .pipe(gulp.dest('dist/fonts'));
-});
+
 
 
 gulp.task('sprite', function() {
@@ -98,14 +95,14 @@ gulp.task('watch', ['browser-sync', 'css-min', 'scripts',], function(){
     gulp.watch('app/css/**/*.css', browserSync.reload);
 });
 
-gulp.task('build', ['clean', 'img', 'sass', 'scripts', 'fonts'], function() {
+gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
     var buildCss = gulp.src([
         'app/css/main.min.css',
         'app/css/libs.min.css'
     ])
     .pipe(gulp.dest('dist/css'));
     
-    var buildFonts = gulp.src('app/font/**/*')
+    var buildFonts = gulp.src('app/font/*')
     .pipe(gulp.dest('dist/fonts'));
     
     var buildJs = gulp.src('app/js/**/*')
